@@ -50,7 +50,7 @@ set_target_properties(gd PROPERTIES LINK_FLAGS "-Wl,-rpath,$ORIGIN:.")
 mkdir build && cd build
 CMAKE_PREFIX_PATH=/tmp/libzlib:/tmp/libpng:/tmp/libjpeg  cmake -DCMAKE_INSTALL_PREFIX=/tmp/libgd/  -DENABLE_PNG=1 -DENABLE_JPEG=1 ..
 make -j
-make intall
+make install
 ```
 
 安装 readline-devel
