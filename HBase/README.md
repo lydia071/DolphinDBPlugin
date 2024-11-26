@@ -232,7 +232,7 @@ In addition to installing the plugin with function installPlugin, you can also i
 
 ### Use Precompiled Package
 
-You can use the pre-built binaries `libPluginOPCUA.so`.
+You can use the pre-built binaries `libPluginHBase.so`.
 
 (1) Add the plugin path to the library search path `LD_LIBRARY_PATH`
 
